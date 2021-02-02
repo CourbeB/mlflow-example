@@ -2,9 +2,10 @@ name: tutorial
 channels:
   - defaults
 dependencies:
-  - numpy>=1.16.6
   - pandas>=1.0.0
   - scikit-learn=0.19.1
   - pip
   - pip:
     - git+https://github.com/saagie/mlflow.git
+    - pyarrow
+    - numpy
