@@ -3,7 +3,7 @@ channels:
   - defaults
 dependencies:
   - pandas>=1.0.0
-  - scikit-learn=0.19.1
+  - scikit-learn=0.22.1
   - pip
   - pip:
     - git+https://github.com/saagie/mlflow.git
